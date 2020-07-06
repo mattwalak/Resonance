@@ -51,8 +51,6 @@ void genImage(float t, float * pixels){
 		for(int i = 0; i < numLines; i++) 
 			newSpeed[i] = SMOOTH(1.0f, speeds[i], speed_interp);
 	}
-	
-
 
 	for(int y = 0; y < height; y++){
 		for(int x = 0; x < width; x++){
